@@ -2,8 +2,8 @@
 (What is your Name, Email, age, address, phone number, gender,
  Are you married)*/
 
-var Name = "Deepak"
-var Email = "dpxxxxx@gmail.com"
+var name = "Deepak"
+var email = "dpxxxxx@gmail.com"
 var age = 25
 var address = "Home Address"
 var phone = "9024******"
