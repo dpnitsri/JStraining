@@ -1,0 +1,7 @@
+var Name = "Deepak"
+var Email = "dpxxxxx@gmail.com"
+var age = 25
+var address = "Home Address"
+var phone = 9024******
+var gender = "male"
+var martial_status = "single"
