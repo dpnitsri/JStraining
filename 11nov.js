@@ -1,6 +1,6 @@
 // DAY 2 Tasks
 
-/* 1. Declare all the variables in above form without initialising and print their value.*/
+/* 1. Declare all the variables in above form without initialising and print their value. */
 
 var name, email, age, address, phone, gender, martial_status;
 
