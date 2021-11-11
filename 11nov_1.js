@@ -1,3 +1,5 @@
+// DAY 2 Tasks
+
 /* 1. Declare all the variables in above form without initialising and print their value.*/
 
 var name, email, age, address, phone, gender, martial_status;
@@ -48,3 +50,22 @@ console.log(employeeDetails);    /* output:  {name: null, email: null, age: null
 
 
 
+// DAY 3 Tasks
+
+/*1. In the variables declare above assign the variables as appropriate default value instead of null.*/
+
+name = "Deepak";
+email = "dpxxxxx@gmail.com";;
+age = 25;
+address = "Home Address";
+phone = "9024******";
+gender = "male";
+martial_status = "single";
+
+employeeDetails.name='Deepak Kumar';
+employeeDetails.email='dp******@gmail.com';
+employeeDetails.age=25;
+employeeDetails.address='Home Location;
+employeeDetails.age=25;
+employeeDetails.phone=1212121212;
+employeeDetails.martial_status='single';
