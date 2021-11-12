@@ -1,30 +1,31 @@
 /*1. Take 2 numbers and print the smallest one amongst them*/
 
-var a=3,b=4;
-if(a>b)
-	console.log(b);
+let firstNumber = 3;
+let secondNumber = 4;
+if(firstNumber > secondNumber)
+	console.log(secondNumber);
 else						//output: 3
-	console.log(a);
+	console.log(firstNumber);
 
 /*2. Take 3 numbers and print the biggest one amongst them*/
-var x,y,z;
+let thirdNumber=6;
 
-if(x>y){
-  	if(x>z)
-		console.log(x);
+if(firstNumber > secondNumber){
+  	if(firstNumber > thirdNumber)
+		console.log(firstNumber);
 	else
-		console.log(z);	
+		console.log(thirdNumber);	
 }else{
-	if(y>z)							
-		console.log(y);
+	if(secondNumber > thirdNumber)							
+		console.log(secondNumber);
 	else
-		console.log(z);
+		console.log(thirdNumber);
 }
 
 /*3. Use switch case to return a grade for the score, either "A", "B", "C", "D", or "F". (Take convension for numbers and grades by yourself)
 Anything below 50 is F*/
 
-var score;
+let score;
 switch(true){
 	case (score<100 && score>90):
 		console.log("A");
@@ -33,7 +34,7 @@ switch(true){
 		console.log("B");
 		break;
 	case (score<80 && score>70):
-		consosle.log("c");
+		consosle.log("C");
 		break;
 	case (score<70 && score >50):
 		console.log("D");
