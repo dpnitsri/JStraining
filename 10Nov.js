@@ -8,4 +8,4 @@ const age = 25
 const address = "Home Address"
 const phone = 9024224242
 const gender = "male"
-boolean married = false
+const married = false
