@@ -80,4 +80,4 @@ employeeDetails.age=25;
 employeeDetails.address='Home Location';
 employeeDetails.gender='male';
 employeeDetails.phone=1212121212;
-employeeDetails.married='single';
+employeeDetails.married=false;
