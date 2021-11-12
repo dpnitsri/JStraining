@@ -2,38 +2,50 @@
 
 /* 1. Declare all the variables in above form without initialising and print their value. */
 
-var name, email, age, address, phone, gender, martial_status;
+let Name;
+let Email;
+let Age;
+let Address;
+let Phone;
+let Gender;
+let Married;
 
-console.log(name);  //output: undefined
-console.log(email);  //output: undefined
-console.log(age);  //output: undefined
-console.log(address);  //output: undefined
-console.log(phone);  //output: undefined
-console.log(gender);  //output: undefined
-console.log(martial_status);  //output: undefined
+console.log(Name);  //output: undefined
+console.log(Email);  //output: undefined
+console.log(Age);  //output: undefined
+console.log(Address);  //output: undefined
+console.log(Phone);  //output: undefined
+console.log(Gender);  //output: undefined
+console.log(Married);  //output: undefined
 
 /*2. After printing their value assign them as null and print it again.*/
 
-name=age=email=address=phone=martial_status=null;
+Name=null;
+Age=null;
+Email=null;
+Address=null;
+Phone=null;
+Gender=null;
+Married=null;
 
-console.log(name);  //output: null
-console.log(email);  //output: null
-console.log(age);  //output: null
-console.log(address);  //output: null
-console.log(phone);  //output: null
-console.log(gender);  //output: null
-console.log(martial_status);  //output: null
+console.log(Name);  //output: null
+console.log(Email);  //output: null
+console.log(Age);  //output: null
+console.log(Address);  //output: null
+console.log(Phone);  //output: null
+console.log(Gender);  //output: null
+console.log(Married);  //output: null
 
 /* 3. Declare an object called employeeDetails and add all the above variables to this object now as keys with value as null and print this object.*/
 
-var employeeDetails = { 
+const employeeDetails = { 
      name:null,
      email:null,
      age:null,
      address:null,
      phone:null,
      gender:null,
-     martial_status:null
+     married:null
 };
 
 console.log(employeeDetails);    /* output:  {name: null, email: null, age: null, address: null, phone: null, …}
@@ -41,7 +53,7 @@ console.log(employeeDetails);    /* output:  {name: null, email: null, age: null
                                               age: null
                                               email: null
                                               gender: null
-                                              martial_status: null
+                                              married: null
                                               name: null
                                               phone: null
                                               [[Prototype]]: Object 
@@ -55,17 +67,17 @@ console.log(employeeDetails);    /* output:  {name: null, email: null, age: null
 /*1. In the variables declare above assign the variables as appropriate default value instead of null.*/
 
 name = "Deepak";
-email = "dpxxxxx@gmail.com";;
+email = "dpxxxxx@gmail.com";
 age = 25;
 address = "Home Address";
-phone = "9024******";
+phone = 9024232323;
 gender = "male";
-martial_status = "single";
+married= false;
 
 employeeDetails.name='Deepak Kumar';
 employeeDetails.email='dp******@gmail.com';
 employeeDetails.age=25;
 employeeDetails.address='Home Location;
-employeeDetails.age=25;
+employeeDetails.gender='male';
 employeeDetails.phone=1212121212;
-employeeDetails.martial_status='single';
+employeeDetails.married='single';
