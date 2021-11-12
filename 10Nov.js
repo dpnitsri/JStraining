@@ -2,10 +2,10 @@
 (What is your Name, Email, age, address, phone number, gender,
  Are you married)*/
 
-var name = "Deepak"
-var email = "dpxxxxx@gmail.com"
-var age = 25
-var address = "Home Address"
-var phone = "9024******"
-var gender = "male"
-var martial_status = "single"
+const name = "Deepak"
+const email = "dpxxxxx@gmail.com"
+const age = 25
+const address = "Home Address"
+const phone = "9024******"
+const gender = "male"
+const martial_status = "single"
