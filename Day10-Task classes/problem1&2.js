@@ -1,4 +1,5 @@
-/*- Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.*/
+/*- 1.Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.*/
+
 
 
 const firstEmployeeDetails = { 
@@ -54,8 +55,15 @@ class Employees{
     }
 }
 
+/*- 2.Use the class in index file to create few employees and use the functions in class on them*/
 
 let EmployeesList = new Employees(listOfEmployees);
 
 EmployeesList.sortByParameter('name');
 console.log(EmployeesList.filterByage(43));
+
+
+
+
+
+
