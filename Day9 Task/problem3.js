@@ -3,7 +3,7 @@
 import employeesData from './employees.json';
 
 
-for(index in employeesData){
+for(const index in employeesData){
     employeesData[index].salary= ((500000*(Math.random+1))/100000).toFixed(1) + 'Lac';
 }
 
