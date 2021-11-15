@@ -4,7 +4,7 @@ import employeesData from './employees.json';
 
 
 for(const index in employeesData){
-    employeesData[index].salary= ((500000*(Math.random+1))/100000).toFixed(1) + 'Lac';
+    employeesData[index].salary= ((500000*(Math.random()+1))/100000).toFixed(1) + 'Lac';
 }
 
 console.log(employeesData);
