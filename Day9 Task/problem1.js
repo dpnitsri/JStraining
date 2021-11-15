@@ -2,7 +2,7 @@
 
 import employeesData from './employees.json';
 
-for(index in employeesData)
+for(const index in employeesData)
     employeesData[index].id= index;
 
 console.log(employeesData);
