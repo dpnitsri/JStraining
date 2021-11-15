@@ -7,4 +7,4 @@ for(const index in employeesData){
     employeesData[index].salary= ((500000*(Math.random+1))/100000).toFixed(1) + 'Lac';
 }
 
-console.log(employeesDate);
+console.log(employeesData);
