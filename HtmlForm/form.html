@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="formbody">
+        <h1> HTML FORM</h1>
+        <form name="regForm" onsubmit="validateForm()">
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter Email">
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password">
+            <button >Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function validateForm(){
+            let name = document.forms["regForm"]["name"];
+            let email = document.forms["regForm"]["email"];
+            let password = document.forms["regForm"]["password"];
+            if(!name.value){
+                alert("Enter Name");
+                return false;
+            }
+            if(!email.value){
+                alert("Enter email");
+                return false;
+            }
+            if(!password.value){
+                alert("Enter Password");
+                return false;
+            }
+            else if(password.value.length<6)
+                    alert("Password need to have atleast 6 characters");
+            
+        }
+    </script>
+</body>
+</html>
